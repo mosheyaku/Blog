@@ -1,9 +1,47 @@
 {% extends "base.html" %}
 
 {% block title %}
-My Blog
+    My Blog
 {% endblock %}
 
 {% block content %}
-	<h1>Welcome to my blog</h1>
+    <header id="main-navigation">
+        <h1><a href="">Moshe' Blog</a></h1>
+        <nav>
+            <a href="">All Posts</a>
+        </nav>
+    </header>
+
+    <section id="welcome">
+        <header>
+            <img src="" alt="Moshe- The Autor Of This Blog"/>
+            <h2>Yakubov's Blog</h2>
+        </header>
+        <p>Hi, I'm Moshe and I like to blog about food and traveling around the world! </p>
+    </section>
+
+    <section id="latest-posts">
+        <ul>
+            <li>
+                <article class="post">
+                    <a href="">
+                        <img src="" alt="Mountain Hiking">
+                        <div class="post_content">
+                            <h3>Mountain Hiking</h3>
+                            <p>There is nothing more satisfying than seeing a mountain
+                                landscape with flowers blooming all around. </p>
+                        </div>
+                    </a>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What I Do</h2>
+        <p>I love programing, I love to help others
+            and enjoy exploring new technologies</p>
+
+        <p>My goal is to keep growing as a developer</p>
+    </section>
 {% endblock %}
