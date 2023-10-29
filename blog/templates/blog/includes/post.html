@@ -2,11 +2,11 @@
 
 <li>
     <article class="post">
-        <a href="{% url "post_details-page" post.slug %}">
+        <a href="{% url "post_details_page" post.slug %}">
             <img src="{% static "blog/images/"|add:post.image %}" alt="{{ post.title }}">
             <div class="post_content">
                 <h3>{{ post.title }}</h3>
-                <p> post.excerpt </p>
+                <p> {{ post.excerpt }} </p>
             </div>
         </a>
     </article>
