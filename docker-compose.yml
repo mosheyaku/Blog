@@ -1,8 +1,8 @@
 version: '3.9'
 
 services:
-  django:
+  Django:
     image: django-docker2:0.0.1
     build: .
     ports:
-      - "7000:7000"
+      - "8000:8000"
