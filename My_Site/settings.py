@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-b00(l*tt_^%=_^mas*ym)m7eyvh4531r*nhg4_xyu_a!7h!2^_
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://blog-fqik.onrender.com',
+    'blog-4pcd.onrender.com',
 ]
 
 # Application definition
