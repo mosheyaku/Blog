@@ -1,15 +1,16 @@
-FROM python:3.10.5
+FROM python:3.8
 
-ENV PYTHONUNBUFFERED=1
+# Set environment variables
+ENV PYTHONUNBUFFERED 1
 
-WORKDIR /code
+# Set the working directory in the container
+WORKDIR /app
 
+# Copy the dependencies file to the working directory
 COPY requirements.txt .
 
+# Install dependencies
 RUN pip install -r requirements.txt
 
-COPY . .
-
-EXPOSE 7000
-
-CMD ["python3", "manage.py", "runserver", "0.0.0.0:7000"]
+# Copy the current directory contents into the container at /app
+COPY . /app
