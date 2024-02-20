@@ -18,7 +18,7 @@ _When accessing the above page you can view all the published blogs:_ ⬇️
 </br></br>
 
 ## Post Display
-__And this is a display of a blog page:_ ⬇️
+_And this is a display of a blog page:_ ⬇️
 
 ![post view](https://github.com/mosheyaku/Blog/assets/114317742/0b86a120-d0f1-449f-93f4-33a027d51066)
 </br></br>
