@@ -12,19 +12,19 @@ _Here you can see the main page of the site:_ ⬇️
 </br></br>
 
 ## View All Blogs
-When accessing the above page you can view all the published blogs:_ ⬇️
+_When accessing the above page you can view all the published blogs:_ ⬇️
 
 ![view all posts](https://github.com/mosheyaku/Blog/assets/114317742/7c532e68-eac5-4785-8f16-563aaadde3d4)
 </br></br>
 
 ## Post Display
-And this is a display of a blog page:_ ⬇️
+__And this is a display of a blog page:_ ⬇️
 
 ![post view](https://github.com/mosheyaku/Blog/assets/114317742/0b86a120-d0f1-449f-93f4-33a027d51066)
 </br></br>
 
 ## Read Later
-In addition, you can save a post to read later:_ ⬇️
+_In addition, you can save a post to read later:_ ⬇️
 
 ![read later](https://github.com/mosheyaku/Blog/assets/114317742/5a2751e7-962d-45b0-93bf-5d98d536fa13)
 </br></br>
