@@ -1,39 +1,61 @@
 #main-navigation {
-  background-color: #390281;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to right top, #6a11cb, #2575fc);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 1rem 12%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
 #stored-posts {
-  margin: 8rem auto 3rem auto;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  background-color: white;
+  margin: 7rem auto 3rem auto;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
   width: 90%;
-  max-width: 30rem;
+  max-width: 35rem;
+  text-align: center;
+}
+
+#stored-posts p {
+  font-size: 1.2rem;
+  color: #555;
 }
 
 #stored-posts ul {
   list-style: none;
-  margin: 0;
+  margin: 2rem 0 0 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 #stored-posts li {
-  margin: 1rem 0;
+  background-color: #f8f8fc;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+#stored-posts li:hover {
+  transform: scale(1.02);
 }
 
 #stored-posts a {
   display: block;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   width: 100%;
   text-decoration: none;
-  border: 1px solid #ccc;
   color: #1b1b1b;
   font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 #stored-posts a:hover,
 #stored-posts a:active {
-  background-color: #ccc;
+  background-color: white;
+  color: #2575fc;
 }

@@ -1,43 +1,88 @@
-body {
-  background-color: #e7e7e7;
-}
-
 #main-navigation {
-  background-color: #390281;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(to right top, #6a11cb, #2575fc);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 1rem 12%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
+/* Section wrapper */
 #all-posts {
-  margin: 7rem auto;
-  width: 90%;
-  max-width: 60rem;
+  margin: 7rem auto 4rem auto;
+  width: 85%;
+  max-width: 1000px;
+  padding: 0 1rem;
 }
 
+/* Section title */
 #all-posts h2 {
   text-align: center;
   font-size: 2rem;
-  color: #2e2e2e;
-  margin: 3rem 0;
+  color: #333;
+  margin-bottom: 3rem;
 }
 
+/* Grid for post cards */
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(17rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 2rem;
+  justify-items: center;
 }
 
-.post img {
-  width: 7rem;
-  height: 7rem;
-}
-
-.post a {
-  height: 22rem;
-  transform-origin: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+/* Post card */
+.post {
+  background-color: #f8f8fc;
   border-radius: 12px;
-  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover effect */
+.post:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Link area inside post */
+.post a {
+  text-decoration: none;
+  color: inherit;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Image styling */
+.post img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings/text inside cards */
+.post h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.post p {
+  font-size: 0.95rem;
+  text-align: center;
 }

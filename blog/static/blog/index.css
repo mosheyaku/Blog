@@ -1,49 +1,56 @@
 #welcome {
-  background: linear-gradient(to right top, #6305dd, #390281);
+  background: linear-gradient(to right top, #6a11cb, #2575fc);
   padding: 6rem 12%;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: #fff;
 }
 
 #welcome header {
   display: flex;
-  align-items: flex-start;
-  margin: 3rem auto;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem 0;
 }
 
 #welcome img {
-  width: 10rem;
-  height: 10rem;
+  width: 9rem;
+  height: 9rem;
   object-fit: cover;
-  object-position: top;
-  border: 5px solid white;
-  border-radius: 12px;
-  background-color: #ffe1bf;
+  border: 4px solid white;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   transform: rotateZ(-5deg);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
 #welcome h2 {
-  font-size: 3.5rem;
-  margin: 0 0 0 2rem;
-  color: #e4e4e4;
-  width: 10rem;
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ffffff;
 }
 
 #welcome p {
-  color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  max-width: 50rem;
 }
 
 #latest-posts {
   background-color: white;
-  padding: 2rem;
-  border-radius: 12px;
-  width: 60rem;
-  margin: -6rem auto 2rem auto;
-  box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+  padding: 3rem;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 900px;
+  margin: -5rem auto 3rem auto;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
 }
 
 #latest-posts h2 {
   text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
 }
 
 #latest-posts ul {
@@ -51,25 +58,34 @@
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #latest-posts li {
-  flex: 1;
+  flex: 1 1 250px;
+  max-width: 300px;
+  background-color: #f8f8fc;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 #about {
   text-align: center;
-  padding: 3rem;
-  background-color: #ffbb4e;
-  margin-top: 5rem;
+  padding: 4rem 2rem;
+  background: #e2ecff;
+  color: #2c3e50;
 }
 
 #about h2 {
-  font-size: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 #about p {
-  font-size: 1.5rem;
-  color: #353535;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto 1.2rem auto;
 }
